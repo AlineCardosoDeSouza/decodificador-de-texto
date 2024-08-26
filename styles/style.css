@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&family=Nerko+One&display=swap');
+
+:root {
+    --cor-principal: #8D493A;
+    --cor-secundaria: #F8EDE3;
+    --cor-tercearia: #D0B8A8;
+}
+
+:root {
+    --fonte-primaria: "Moderustic", sans-serif;
+    --fonte-secundaria: "Nerko One" , sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-secundaria);
+}
+
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    margin: 2%;
+    font-size: 40px;
+    font-family: var(--fonte-secundaria);
+    color: #8D493A;
+}
+
+.conteudo__input {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0 0 5%;
+}
+
+.conteudo__input .input {
+    width: 400px;
+    height: 630px;
+}
+
+#input-texto {
+    width: 335px;
+    height: 330px;
+    font-size: 20px;
+    color: var(--cor-principal);
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: 0;
+    padding: 10px;
+    text-transform: lowercase;
+}
+
+.input__frase {
+    color: var(--cor-principal);
+    font-family: var(--fonte-secundaria);
+    font-size: 16px;
+    padding: 30px;
+}
+
+.conteudo__botoes button {
+    border: 2px solid var(--cor-principal);
+    border-radius: 10px;
+    text-decoration: none;
+    color: #632626;
+    font-size: 15px;
+    font-family: var(--fonte-primaria);
+    font-weight: 500;
+    width: 150px;
+    height: 60px;
+    margin-left: 4%;
+    cursor: pointer;
+    gap: 2%;
+}
+
+.conteudo__botoes button:hover{
+    background-color: #D0B8A8;
+    color: var(--cor-principal);
+}
+
+#output {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid var(--cor-principal);
+    border-radius: 20px;
+    width: 450px;
+    height: 500px;
+    margin-right: 3%;
+    gap: 5px;
+}
+
+#output h2 {
+    text-align: center;
+    font-size: 25px;
+    color: var(--cor-principal);
+    font-family: var(--fonte-secundaria);
+}
+
+#output span {
+    font-size: 16px;
+    text-align: center;
+    font-family: var(--fonte-primaria);
+}
+
+#output img {
+    max-width: 300px;
+    width: auto;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+.btn-copiar {
+    border: 2px solid var(--cor-principal);
+    border-radius: 10px;
+    text-decoration: none;
+    color: #632626;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    cursor: pointer;
+}
+
+.botoes button:hover {
+    border: 2px solid var(--cor-secundaria);
+    transition: 0.5s all;
+} 
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    margin-top: 10px;
+    background: var(--cor-principal);
+    color: var(--cor-tercearia);
+    font-family: var(--fonte-secundaria);
+    font-size: 30px
+}

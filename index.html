@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodoficador de texto</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <main class="conteudo">
+       <header class="cabecalho">
+        <h1>A</h1>
+       </header>
+
+    <div class="conteudo__input">
+        <div class="input">
+            <textarea id="input-texto" placeholder="Digite sua mensagem..."></textarea>
+            <p class="input__frase">ATENÇÃO: Apenas letras minúsculas e sem acentos.</p>
+            <div class="conteudo__botoes">
+                <div class="botoes">
+                    <button onclick="criptografar()" class="bts-criptografar">Criptografar</button>
+                    <button onclick="descriptografar()" class="bts-descriptografar">Descriptografar</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="output">
+            <img src="./assets/ftproj.jpg" alt="foto de coelinho estudando">
+            <h2>Sua mensagem aparecera aqui!</h2>
+            <span>Escreva a mensagem que deseja criptografar ou descriptografar!</span>
+        </div>
+
+      
+
+    </div>    
+    </main>
+    <footer class="rodape">
+        <p>Página desenvolvida com os cursos de HTML e CSS da Alura</p>
+    </footer>
+</body>
+</html>
